@@ -1,6 +1,20 @@
 <keymap version="1" name="Default for KDE copy" parent="Default for KDE">
   <action id=":cursive.actions.paredit/close-square-and-newline" />
   <action id=":cursive.actions.paredit/wrap-square" />
+  <action id=":cursive.repl.actions/clear-repl">
+    <keyboard-shortcut first-keystroke="ctrl alt released k" />
+  </action>
+  <action id=":cursive.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="shift alt l" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id=":cursive.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id=":cursive.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -8,7 +22,9 @@
   </action>
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
   <action id="Diff.ShowDiff" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorDeleteLine">
@@ -16,19 +32,24 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorSplitLine" />
   <action id="FileChooser.GotoDesktop" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
+  <action id="Groovy.Shell.Execute" />
   <action id="GuiDesigner.Duplicate" />
+  <action id="Inline" />
+  <action id="KotlinShellExecute" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
+  <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
 </keymap>
