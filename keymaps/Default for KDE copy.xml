@@ -1,13 +1,27 @@
 <keymap version="1" name="Default for KDE copy" parent="Default for KDE">
+  <action id=":cursive.actions.paredit/close-square-and-newline" />
+  <action id=":cursive.actions.paredit/wrap-square" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="GuiDesigner.Duplicate" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
