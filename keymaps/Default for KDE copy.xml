@@ -75,6 +75,10 @@
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="QuickActionPopup" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="ShowSettings">
