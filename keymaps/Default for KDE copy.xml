@@ -42,6 +42,9 @@
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl meta x" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
