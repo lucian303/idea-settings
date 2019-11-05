@@ -53,6 +53,7 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="ContextHelp" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ShowDiff" />
@@ -73,6 +74,9 @@
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord" />
+  <action id="ExternalJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -111,6 +115,11 @@
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="QuickActionPopup" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt l" />
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
