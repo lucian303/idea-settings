@@ -74,9 +74,6 @@
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord" />
-  <action id="ExternalJavaDoc">
-    <keyboard-shortcut first-keystroke="f1" />
-  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -105,6 +102,11 @@
   <action id="GuiDesigner.Duplicate" />
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
+  <action id="GuiDesigner.QuickJavadoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="Inline" />
   <action id="IntroduceParameter" />
   <action id="KotlinShellExecute" />
@@ -118,7 +120,7 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
     <mouse-shortcut keystroke="alt button2" />
-    <keyboard-shortcut first-keystroke="shift f1" />
+    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt l" />
