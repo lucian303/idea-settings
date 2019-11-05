@@ -114,8 +114,14 @@
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
   <action id="QuickActionPopup" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
@@ -153,6 +159,8 @@
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
