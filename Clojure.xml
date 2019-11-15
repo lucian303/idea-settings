@@ -3,5 +3,6 @@
     <option name="coloredParentheses" value="true" />
     <option name="separateREPLItems" value="true" />
     <option name="structuralStyle" value="1" />
+    <option name="confirmReplExit" value="false" />
   </component>
 </application>
