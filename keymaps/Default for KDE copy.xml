@@ -1,4 +1,9 @@
 <keymap version="1" name="Default for KDE copy" parent="Default for KDE">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id=":cursive.actions.paredit/close-square-and-newline" />
   <action id=":cursive.actions.paredit/wrap-square" />
   <action id=":cursive.repl.actions/clear-repl">
@@ -61,13 +66,15 @@
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="ctrl meta x" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate">
