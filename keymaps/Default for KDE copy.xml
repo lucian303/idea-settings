@@ -183,6 +183,7 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
+  <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -200,5 +201,11 @@
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
