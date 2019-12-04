@@ -167,8 +167,10 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowSettings">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" />
