@@ -4,7 +4,9 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id=":cursive.actions.paredit/barf-backwards" />
   <action id=":cursive.actions.paredit/close-square-and-newline" />
+  <action id=":cursive.actions.paredit/slurp-backwards" />
   <action id=":cursive.actions.paredit/wrap-square" />
   <action id=":cursive.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="ctrl alt released k" />
@@ -179,6 +181,7 @@
     <keyboard-shortcut first-keystroke="ctrl 2" />
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
+  <action id="SurroundWithLiveTemplate" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
