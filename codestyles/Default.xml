@@ -1,4 +1,8 @@
-<code_scheme name="Default">
+<code_scheme name="Default" version="173">
+  <ClojureCodeStyleSettings>{
+  :cursive.formatting/align-binding-forms true
+  :cursive.formatting/comment-align-column 0
+}</ClojureCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
