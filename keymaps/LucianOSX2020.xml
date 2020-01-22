@@ -1,4 +1,4 @@
-<keymap version="1" name="Lucian" parent="Mac OS X 10.5+">
+<keymap version="1" name="LucianOSX2020" parent="Mac OS X 10.5+">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
     <keyboard-shortcut first-keystroke="shift alt back_space" />
@@ -38,6 +38,7 @@
   <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id=":cursive.repl.actions/search-history">
     <keyboard-shortcut first-keystroke="meta alt y" />
@@ -75,7 +76,9 @@
   <action id="CompareTwoFiles" />
   <action id="Console.Execute" />
   <action id="Console.Execute.Multiline" />
+  <action id="DBNavigator.Actions.Execute" />
   <action id="Diff.ShowDiff" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Edit">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
