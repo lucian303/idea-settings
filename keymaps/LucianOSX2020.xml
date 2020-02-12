@@ -65,6 +65,7 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="ChangesView.Diff" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -219,6 +220,7 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f7" />
@@ -251,6 +253,7 @@
   <action id="Synchronize" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
