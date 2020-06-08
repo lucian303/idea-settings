@@ -245,6 +245,7 @@
     <keyboard-shortcut first-keystroke="meta alt c" />
     <keyboard-shortcut first-keystroke="meta alt v" />
     <keyboard-shortcut first-keystroke="ctrl meta v" />
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f7" />
@@ -253,10 +254,6 @@
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="shift f9" />
-  </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="meta f2" />
-    <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
