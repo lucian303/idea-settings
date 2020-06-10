@@ -47,9 +47,7 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="meta alt n" />
   </action>
-  <action id=":cursive.repl.actions/sync-files">
-    <keyboard-shortcut first-keystroke="shift meta s" />
-  </action>
+  <action id=":cursive.repl.actions/sync-files" />
   <action id=":cursive.testing.actions/run-ns-tests">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
@@ -254,6 +252,10 @@
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
