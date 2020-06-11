@@ -7,11 +7,46 @@
   <action id=":cursive.actions.paredit/backward">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id=":cursive.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="ctrl meta k" />
+    <keyboard-shortcut first-keystroke="meta alt 8" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+    <keyboard-shortcut first-keystroke="meta alt 9" />
+  </action>
   <action id=":cursive.actions.paredit/close-square-and-newline" />
   <action id=":cursive.actions.paredit/forward">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id=":cursive.actions.paredit/kill-sexp" />
+  <action id=":cursive.actions.paredit/move-form-down">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id=":cursive.actions.paredit/move-form-up">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="ctrl meta j" />
+    <keyboard-shortcut first-keystroke="meta alt 6" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="meta alt 7" />
+  </action>
+  <action id=":cursive.actions.paredit/thread-form">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+    <keyboard-shortcut first-keystroke="meta alt back_slash" />
+  </action>
+  <action id=":cursive.actions.paredit/toggle">
+    <keyboard-shortcut first-keystroke="meta alt minus" />
+  </action>
+  <action id=":cursive.actions.paredit/unthread-form">
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+    <keyboard-shortcut first-keystroke="meta alt quote" />
+  </action>
   <action id=":cursive.actions.paredit/wrap-square" />
   <action id=":cursive.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="shift meta k" />
@@ -72,6 +107,9 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt subtract" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute" />
@@ -181,6 +219,7 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextOccurence" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -191,6 +230,7 @@
   </action>
   <action id="OpenElementInNewWindow" />
   <action id="ParameterInfo" />
+  <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
