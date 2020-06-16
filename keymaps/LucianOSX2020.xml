@@ -28,6 +28,7 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
+  <action id=":cursive.actions.paredit/raise" />
   <action id=":cursive.actions.paredit/slurp-backwards">
     <keyboard-shortcut first-keystroke="ctrl meta j" />
     <keyboard-shortcut first-keystroke="meta alt 6" />
@@ -93,6 +94,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="meta quote" />
   </action>
   <action id="Arrangement.Alias.Rule.Add">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -202,6 +204,7 @@
   <action id="GuiDesigner.Duplicate" />
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
+  <action id="Images.Editor.ToggleGrid" />
   <action id="Images.ShowThumbnails" />
   <action id="Images.Thumbnails.EnterAction" />
   <action id="Inline" />
