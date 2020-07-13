@@ -4,9 +4,7 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
-  <action id=":cursive.actions.paredit/backward">
-    <keyboard-shortcut first-keystroke="alt left" />
-  </action>
+  <action id=":cursive.actions.paredit/backward" />
   <action id=":cursive.actions.paredit/barf-backwards">
     <keyboard-shortcut first-keystroke="ctrl meta k" />
     <keyboard-shortcut first-keystroke="meta alt 8" />
@@ -16,9 +14,7 @@
     <keyboard-shortcut first-keystroke="meta alt 9" />
   </action>
   <action id=":cursive.actions.paredit/close-square-and-newline" />
-  <action id=":cursive.actions.paredit/forward">
-    <keyboard-shortcut first-keystroke="alt right" />
-  </action>
+  <action id=":cursive.actions.paredit/forward" />
   <action id=":cursive.actions.paredit/kill-sexp" />
   <action id=":cursive.actions.paredit/raise" />
   <action id=":cursive.actions.paredit/slurp-backwards">
@@ -151,6 +147,8 @@
     <keyboard-shortcut first-keystroke="shift meta down" />
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorStartNewLineBefore" />
@@ -222,6 +220,7 @@
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="meta alt up" />
+    <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -236,6 +235,7 @@
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
     <keyboard-shortcut first-keystroke="meta alt down" />
+    <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="PreviousOccurence" />
   <action id="PreviousTab">
