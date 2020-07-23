@@ -58,6 +58,7 @@
   </action>
   <action id=":cursive.repl.actions/run-last-sexp">
     <keyboard-shortcut first-keystroke="shift alt enter" />
+    <keyboard-shortcut first-keystroke="alt page_down" />
   </action>
   <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -243,6 +244,7 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
+  <action id="QuickActionPopup" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -259,6 +261,7 @@
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="ResourceBundleEditorShowIntentions" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="ctrl meta r" />
@@ -272,6 +275,7 @@
   <action id="Scala.ShowImplicitParameters" />
   <action id="ScalaConsole.Execute" />
   <action id="SendEOF" />
+  <action id="SetShortcutAction" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="meta alt enter" />
   </action>
