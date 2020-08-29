@@ -81,6 +81,9 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="ActivateREPLToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt t" />
@@ -272,7 +275,6 @@
   <action id="ResizeToolWindowUp" />
   <action id="ResourceBundleEditorShowIntentions" />
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="Run">
