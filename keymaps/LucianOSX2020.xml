@@ -121,6 +121,7 @@
   <action id="Console.Execute.Multiline" />
   <action id="DBNavigator.Actions.Execute" />
   <action id="DBNavigator.Actions.MainMenu.OpenSessionBrowser" />
+  <action id="Debug" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Edit">
