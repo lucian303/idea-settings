@@ -9,6 +9,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="fff" type="PLAIN_TEXT" />
+      <mapping ext="port" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
