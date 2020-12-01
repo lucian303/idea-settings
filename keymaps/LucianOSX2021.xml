@@ -352,6 +352,9 @@
   <action id="Vcs.RefreshStatuses">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
