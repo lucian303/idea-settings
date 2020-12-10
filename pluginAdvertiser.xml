@@ -1529,6 +1529,11 @@
                       <FeaturePluginData displayName="Clojure Application" pluginName="Cursive" pluginId="com.cursiveclojure.cursive" />
                     </value>
                   </entry>
+                  <entry key="ClojureTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="clojure.test" pluginName="Cursive" pluginId="com.cursiveclojure.cursive" />
+                    </value>
+                  </entry>
                   <entry key="CompoundRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
