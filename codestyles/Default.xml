@@ -42,7 +42,7 @@
   </DBN-PSQL>
   <DBN-SQL>
     <case-options enabled="false">
-      <option name="KEYWORD_CASE" value="lower" />
+      <option name="KEYWORD_CASE" value="upper" />
       <option name="FUNCTION_CASE" value="lower" />
       <option name="PARAMETER_CASE" value="lower" />
       <option name="DATATYPE_CASE" value="lower" />
