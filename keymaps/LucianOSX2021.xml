@@ -39,7 +39,7 @@
   <action id=":cursive.actions.paredit/wrap-square" />
   <action id=":cursive.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="shift meta k" />
-    <keyboard-shortcut first-keystroke="meta alt j" />
+    <keyboard-shortcut first-keystroke="meta alt k" />
   </action>
   <action id=":cursive.repl.actions/jump-to-repl" />
   <action id=":cursive.repl.actions/load-file">
@@ -198,6 +198,7 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="Git.Commit.And.Push.Executor" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta p" />
@@ -208,6 +209,7 @@
   <action id="GuiDesigner.Duplicate" />
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
+  <action id="Hg.Commit.And.Push.Executor" />
   <action id="Images.Editor.ToggleGrid" />
   <action id="Images.ShowThumbnails" />
   <action id="Images.Thumbnails.EnterAction" />
@@ -265,7 +267,7 @@
   </action>
   <action id="Refactorings.QuickListPopupAction" />
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta alt k" />
+    <keyboard-shortcut first-keystroke="meta alt j" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
