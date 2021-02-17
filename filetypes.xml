@@ -12,6 +12,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="fff" type="PLAIN_TEXT" />
       <mapping ext="port" type="PLAIN_TEXT" />
+      <mapping ext="scss" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <mapping pattern=".gitignore_global" type="Git file" />
